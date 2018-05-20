@@ -1,0 +1,448 @@
+@media (max-width: 4000px) {
+	.strict-bottle {
+		left: -5em;
+	}
+	.unique-cont {
+		width: calc(50% + 6.25em);
+	}
+}
+
+@media (max-width: 3800px) {
+	body {
+		font-size: .85vw;
+	}	
+	.proud-info {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 3400px) {
+	body {
+		font-size: .85vw
+	}
+}
+
+@media (max-width: 2800px) {
+	#fp-nav ul li a {
+		border: 1px solid #fff;
+	}
+	#fp-nav ul li:before {
+		width: 3px;
+		border-width: 1px;
+	}
+}
+
+@media (max-width: 2200px) {
+	body {
+		font-size: .85vw;
+	}
+}
+
+@media (max-width: 1920px) {
+	body {
+		font-size: .85vw;
+	}
+	.recipe-item:last-child .recipe-img {
+		max-width: 50%;
+		max-height: none;
+	}
+	.section-main .logo {
+		margin-top: 20vh;
+	}
+	.main-anchor {
+		margin-bottom: 15vh;
+	}
+	.second-bottles {
+		width: 30vw;
+	}
+	.section-second {
+		padding: 12.5vh 0 0 0;
+		background-size: 35vw auto;
+		background-image: url('/img/new/down-wheel.png');
+	}
+	.second-cont {
+		margin: 0 8.5vw 10em 0;
+	}
+	.section-main {
+		background-image: url('/img/new/main-bg.jpg');
+	}
+	.section-proud {
+		background-image: url('/img/new/proud-bg.jpg');
+	}
+	.water {
+		background-image: url('/img/new/water-bg.jpg');
+	}
+	.section-strict {
+		background-image: url('/img/new/avantgarde-bg.jpg');
+	}
+	.section-unique {
+		background-image: url('/img/new/bottle-bg.png');
+	}
+	.section-contacts {
+		background-image: url('/img/new/contacts-bg.jpg');
+	}
+
+	.bottle-main {
+		width: 10em;
+	}
+	.section-unique .header-h2 {
+		margin: 1em 0;
+	}
+	.bottle-desc-item:first-child:after {
+		left: 4.5em;
+		top: 35%;
+	}
+	.bottle-desc-item:first-child:before {
+		left: 21.5em;
+		top: 35%;
+	}
+	.bottle-desc-item:nth-child(2):after {
+		left: 4.5em;
+	}
+	.bottle-desc-item:nth-child(2):before {
+		left: 21.5em;
+	}
+	.bottle-desc-img-second {
+		top: 30%;
+	}
+	.bottle-desc-img-third {
+		top: 55%;
+		left: 6em;
+	}
+	.bottle-desc-item:nth-child(3):after {
+		left: 15em;
+		top: 79%;
+	}
+	.bottle-desc-item:nth-child(3):before {
+		left: 21em;
+		top: 79%;
+	}
+	.bottle-desc-item:last-child {
+		margin: 0;
+	}
+	.bottle-desc-item:nth-child(3) {
+		margin: 0 0 6em 0;
+	}
+	.bottle-desc-item:nth-child(4):after {
+		width: 15em;
+		top: 95%;
+	}
+	.bottle-desc-item:nth-child(4):before {
+		left: 21.5em;
+		top: 95%;
+	}
+	.contacts-bottles {
+		left: 35vw;
+	}
+}
+
+@media (min-width: 1280px) and (max-height: 1000px) {
+	.section-proud {
+		padding: 0;
+	}
+	.recipe-img {
+		max-height: 100px;
+	}
+	.section-recipe {
+		padding: 0 0 20em 0;
+	}
+	.section-strict {
+		padding: 0;
+	}
+	.contacts-form {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 1280px) {
+	body {
+		font-size: 16px;
+	}
+	.mobile-only {
+		display: block;
+	}
+	.desktop-only {
+		display: none;
+	}
+	.section-recipe .header-h2 {
+		padding: 0;
+		text-align: center;
+	}
+	.recipe-item {
+		width: 51%;
+		margin: 0 0 5em 0;
+	}
+	.strict-bottle {
+		display: none;
+	}
+	.strict-cont {
+		margin: 0 auto;
+	}
+	.section-strict {
+		background-position: 50% 100%;
+		background-size: 100% auto;
+		padding: 8em 0 25em 0;
+	}
+	.bottle-pieces {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.pieces-cont {
+		width: 100%;
+		margin: 2em 0 0 0;
+	}
+	.bottle-desc-img {
+		position: static;
+		margin: 0 0 1em 0;
+	}
+	.section-unique {
+		background: #fff;
+	}
+	.unique-cont {
+		margin: 0;
+		width: 100%;
+	}
+	.bottle-desc-item:before,
+	.bottle-desc-item:after {
+		display: none;
+	}
+	.section-unique .header-h2 {
+		text-align: center;
+	}
+	.bottle-desc {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+	.bottle-desc-item {
+	    width: 50%;
+	    text-align: center;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
+	.bottle-desc-item:last-child .bottle-desc-text {
+		color: #152573;
+	}
+	.bottle-desc-item,
+	.bottle-desc-item:last-child {
+		margin: 0 0 6em 0;
+	}
+	.section-contacts {
+		flex-wrap: wrap;
+		align-items: center;
+	}
+	.contacts-cont {
+		margin: 0 auto 5em;
+	}
+	.contacts-bottles {
+		position: static;
+		order: -1;
+		margin: 0 auto;
+	}
+	.proud-flex {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.box {
+		max-width: 100%;
+		margin: 2em 0 0 40%;
+	}
+	.second-flex {
+		justify-content: center;
+	}
+	.second-cont {
+		margin: 0 0 20em 0;
+		width: auto;
+	}
+	.second-bottles {
+		left: 50%;
+		top: 0;
+		bottom: auto;
+	    transform: translateX(-50%) rotate(-180deg);
+	}
+	.section-second {
+		padding: 50vw 0 0 0;
+		background-position: 50% 100%;
+	}
+	section {
+		overflow-x: hidden;
+	}
+	.main-bottle {
+		position: static;
+		margin: 0 0 0 5%;
+		transform: none;
+	}
+	.section-main {
+		background-size: cover;
+		overflow-y: hidden;
+	}
+	.main-anchor {
+		margin-bottom: 5em;
+	}
+	.age-glasses {
+		display: none;
+	}
+	.wheel {
+		display: none;
+	}
+	.section-main-container:after {
+		display: none;
+	}
+	.recipe-img {
+		max-height: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.second-cont {
+		margin: 0 0 13.25em 0;
+	}
+	.proud-info .header-h2 {
+		font-size: 3em;
+	}
+	.proud-info {
+		padding: 2em;
+	    background-position: calc(100% - 1em) calc(100% - 1em);
+	}
+}
+
+@media (max-width: 650px) {
+	body {
+		font-size: 14px;
+	}
+}
+
+@media (max-height: 1000px) {
+	.age-verification-container {
+		padding: 5em 0 10em 0;
+	}
+}
+
+@media (max-height: 767px) {
+	.age-verification {
+		background-image: url('../img/age-bg.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: left bottom;
+	}
+	.age-verification-container {
+		padding: 2em 0 10em 0;
+		background: none;
+	}
+	.age-verification .header-h2 {
+		font-size: 2.6em;
+	}
+	.age-glasses {
+		height: auto;
+		width: 26.5em;
+	}
+}
+
+@media (max-width: 480px) {
+	.age-form {
+		flex-direction: column;
+	}
+	.select-container,
+	.age-select,
+	.age-form {
+		width: 100%;
+	}
+	.age-logo {
+		width: 20vh;
+		margin-bottom: 2vh;
+	}
+	.age-verification .header-h2 {
+		font-size: 5vh;
+	}
+	.age-form-container {
+		padding: 5vh 1em;
+	}
+	.age-verification .reg-text {
+		font-size: 2.5vh;
+		line-height: 1.5;
+	}
+	.age-form {
+		margin: 3vh 0;
+	}
+	.age-select {
+		height: 5vh;
+	}
+	.age-verification-container {
+		padding: 2vh 0;
+	}
+	.age-label {
+		font-size: 2.5vh;
+	}
+	.recipe-item {
+		width: 90%;
+	}
+	.header-h2,
+	.proud-info .header-h2,
+	.recipe-title,
+	.section-unique .header-h2,
+	.section-contacts .header-h2 {
+		font-size: 2.2em;
+	}
+	.section-recipe {
+		padding-bottom: 7em;
+	}
+	.section-strict {
+		padding-bottom: 15em;
+	}
+	.bottle-desc {
+		flex-direction: column;
+		align-items: center;
+	}
+	.contacts-bottles {
+		max-width: 100%;
+	}
+	.contacts-form {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 2em auto 0;
+	}
+	.contacts-footer {
+		width: 90%;
+		margin: 2em auto 0;
+	}
+	.contacts-footer-container {
+		flex-direction: column;
+	}
+	.footer-logo {
+		margin: 0 0 2em 0;
+	}
+	.socials {
+		margin: 2em 0 0 0;
+	}
+	.bottle-desc-item {
+		width: 90%;
+	}
+}
+
+@media (max-height: 700px) {
+	.seabell {
+		top: -1.75em;
+	}
+}
+
+@media (max-height: 550px) {
+	#fp-nav {
+		display: none;
+	}
+	.section-proud {
+		padding: 5em 0;
+	}
+	.section-main {
+		overflow-y: hidden;
+	}
+	.section-recipe {
+		padding-top: 5em;
+	}
+	.fp-tableCell {
+		overflow-x: hidden;
+	}
+}

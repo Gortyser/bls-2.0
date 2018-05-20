@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'Helvetica';
+	src: url("../fonts/HelveticaNeueMedium.eot") format('embedded-opentype'),
+		 url("../fonts/HelveticaNeueMedium.woff") format('woff'),
+		 url("../fonts/HelveticaNeueMedium.ttf") format('truetype');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url("../fonts/HelveticaNeueRoman.eot") format('embedded-opentype'),
+		 url("../fonts/HelveticaNeueRoman.woff") format('woff'),
+		 url("../fonts/HelveticaNeueRoman.ttf") format('truetype');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url("../fonts/HelveticaNeueLight.eot") format('embedded-opentype'),
+		 url("../fonts/HelveticaNeueLight.woff") format('woff'),
+		 url("../fonts/HelveticaNeueLight.ttf") format('truetype');
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url("../fonts/GothamProLight.otf");
+	font-weight: 300;
+}
