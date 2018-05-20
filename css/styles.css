@@ -152,7 +152,7 @@ a {
 	width: 2.275em;
 	opacity: .6;
 	height: 1.525em;
-	background: url('/img/new/arrow-down.png') no-repeat 50% 50%;
+	background: url('../img/new/arrow-down.png') no-repeat 50% 50%;
 	background-size: contain;
 	display: block;
 	margin: -0.5em auto 0;
@@ -189,7 +189,7 @@ a {
 /*second section*/
 .section-second {
 	padding: 18vh 0 0 0;
-	background: url('/img/new/down-wheel-x2.png') no-repeat 90% 100%;
+	background: url('../img/new/down-wheel-x2.png') no-repeat 90% 100%;
 	background-size: 45vw auto;
 	background-color: #fff;
 	min-height: 100vh;
@@ -227,7 +227,7 @@ a {
 /*proud-section*/
 .section-proud {
 	padding: 13vh 0 14vh 0;	
-	background: url('/img/new/proud-bg-x2.jpg') no-repeat 0 100%;
+	background: url('../img/new/proud-bg-x2.jpg') no-repeat 0 100%;
 	background-size: cover;
 	min-height: 100vh;
 	display: flex;
@@ -240,7 +240,7 @@ a {
 	max-width: 100%;
 	margin: 0 0 0 17vw;
 	padding: 8.75em 15.525em 8.5em 7.125em;
-	background: url('/img/new/proud-map.png') no-repeat calc(100% - 6.25em) calc(100% - 3.5em), 
+	background: url('../img/new/proud-map.png') no-repeat calc(100% - 6.25em) calc(100% - 3.5em), 
 				rgba(0, 0, 51, .8);
 	background-size: 30% auto;
 }
@@ -306,7 +306,7 @@ a {
 	bottom: 0;
 	width: 100%;
 	left: 0;
-	background-image: url('/img/new/water-bg-x2.jpg');
+	background-image: url('../img/new/water-bg-x2.jpg');
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size: cover
@@ -319,7 +319,7 @@ a {
 /*scrict section*/
 
 .section-strict {
-	background: url('/img/new/avantgarde-bg-x2.jpg') no-repeat 100% 50%;
+	background: url('../img/new/avantgarde-bg-x2.jpg') no-repeat 100% 50%;
 	background-size: cover;
 	background-color: #040631;
 	padding: 18em 0 26.25em 0;
@@ -358,7 +358,7 @@ a {
 	min-height: 100vh;
 	align-items: center;
 	justify-content: flex-end;
-	background: url('/img/new/bottle-bg-x2.png') no-repeat 50% 50%;
+	background: url('../img/new/bottle-bg-x2.png') no-repeat 50% 50%;
 	background-size: cover;
 }
 .section-unique .header-h2 {
@@ -393,24 +393,24 @@ a {
 	position: absolute;
 }
 .bottle-desc-img-first {
-	background-image: url('/img/new/design-1.png');
+	background-image: url('../img/new/design-1.png');
 	background-size: contain;
 	background-position: center bottom;
 	top: -.5em;
 	left: 3em;
 }
 .bottle-desc-img-second {
-	background-image: url('/img/new/design-2.png');
+	background-image: url('../img/new/design-2.png');
 	top: 35%;
 	left: -3em;
 }
 .bottle-desc-img-third {
-	background-image: url('/img/new/design-3.png');
+	background-image: url('../img/new/design-3.png');
 	top: 58%;
 	left: 8em;
 }
 .bottle-desc-img-fourth {
-	background-image: url('/img/new/design-4.png');
+	background-image: url('../img/new/design-4.png');
 	top: 75%;
 	left: -3em;
 }
@@ -496,7 +496,7 @@ a {
 
 .section-contacts {
 	padding: 3em 0 0 0;
-	background: url('/img/new/contacts-bg-x2.jpg') no-repeat 50% 50%;
+	background: url('../img/new/contacts-bg-x2.jpg') no-repeat 50% 50%;
 	background-size: cover;
 	min-height: 100vh;
 	display: flex;
@@ -841,7 +841,7 @@ a {
 	transform: translate(-50%, -100%);
 	width: 4.7em;
 	height: 6.875em;
-	background: url('/img/new/seabell.png') no-repeat 50% 50%;
+	background: url('../img/new/seabell.png') no-repeat 50% 50%;
 	background-size: cover;
 	cursor: pointer;
 }
@@ -888,7 +888,7 @@ a {
 }
 .wheel {
 	display: block;
-	background: url('/img/new/wheel.png');
+	background: url('../img/new/wheel.png');
 	width: 4em;
 	height: 4em;
 	position: absolute;
