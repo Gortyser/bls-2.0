@@ -58,28 +58,28 @@
 	.section-second {
 		padding: 12.5vh 0 0 0;
 		background-size: 35vw auto;
-		background-image: url('../img/new/down-wheel.png');
+		background-image: url('/img/new/down-wheel.png');
 	}
 	.second-cont {
 		margin: 0 8.5vw 10em 0;
 	}
 	.section-main {
-		background-image: url('../img/new/main-bg.jpg');
+		background-image: url('/img/new/main-bg.jpg');
 	}
 	.section-proud {
-		background-image: url('../img/new/proud-bg.jpg');
+		background-image: url('/img/new/proud-bg.jpg');
 	}
 	.water {
-		background-image: url('../img/new/water-bg.jpg');
+		background-image: url('/img/new/water-bg.jpg');
 	}
 	.section-strict {
-		background-image: url('../img/new/avantgarde-bg.jpg');
+		background-image: url('/img/new/avantgarde-bg.jpg');
 	}
 	.section-unique {
-		background-image: url('../img/new/bottle-bg.png');
+		background-image: url('/img/new/bottle-bg.jpg');
 	}
 	.section-contacts {
-		background-image: url('../img/new/contacts-bg.jpg');
+		background-image: url('/img/new/contacts-bg.jpg');
 	}
 
 	.bottle-main {
@@ -322,7 +322,7 @@
 
 @media (max-height: 767px) {
 	.age-verification {
-		background-image: url('..../img/age-bg.png');
+		background-image: url('../img/age-bg.png');
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: left bottom;
